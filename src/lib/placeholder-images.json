@@ -13,6 +13,36 @@
       "imageHint": "modern livingroom"
     },
     {
+      "id": "about-header",
+      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwd29ya2luZ3xlbnwwfHx8fDE3NjI0MTYyODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A diverse team collaborating in a modern office space.",
+      "imageHint": "team working"
+    },
+    {
+      "id": "blog-header",
+      "imageUrl": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibG9nZ2luZ3xlbnwwfHx8fDE3NjI0MTYyODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A person writing in a notebook with a laptop, representing blogging.",
+      "imageHint": "blogging"
+    },
+    {
+      "id": "contact-header",
+      "imageUrl": "https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb250YWN0JTIwdXN8ZW58MHx8fHwxNzYyNDE2MjgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A desk with a phone, laptop, and notebook for contacting us.",
+      "imageHint": "contact us"
+    },
+    {
+      "id": "booking-header",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzY2hlZHVsZSUyMGJvb2tpbmd8ZW58MHx8fHwxNzYyNDE2MjgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "People looking at a calendar, scheduling a booking.",
+      "imageHint": "schedule booking"
+    },
+    {
+      "id": "suggestions-header",
+      "imageUrl": "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSUyUyMHN1Z2dlc3Rpb25zfGVufDB8fHx8MTc2MjQxNjI4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Abstract AI and technology background for smart suggestions.",
+      "imageHint": "AI suggestions"
+    },
+    {
       "id": "about",
       "imageUrl": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwb2ZmaWNlfGVufDB8fHx8MTc2MjMyNjI1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "A group of real estate agents in a modern office",
@@ -20,7 +50,7 @@
     },
     {
       "id": "contact",
-      "imageUrl": "https://images.unsplash.com/photo-1730094737470-585776d7f790?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkZXNrJTIwY29udGFjdHxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1730094737470-585776d7f790?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkZXNrJTIwY29udGFjdHxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "A person's hands typing on a laptop with a phone nearby",
       "imageHint": "desk contact"
     },
@@ -56,7 +86,7 @@
     },
     {
       "id": "prop2-1",
-      "imageUrl": "https://images.unsplash.com/photo-1658893136904-63914a6b372c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb3p5JTIwbGl2aW5ncm9vbXxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1658893136904-63914a6b372c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb3p5JTIwbGl2aW5ncm9vbXxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Cozy living room with a fireplace in a suburban house",
       "imageHint": "cozy livingroom"
     },
@@ -92,13 +122,13 @@
     },
     {
       "id": "prop5-thumb",
-      "imageUrl": "https://images.unsplash.com/photo-1679683171686-6242c0fde282?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYWtlc2lkZSUyMG1hbnNpb258ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1679683171686-6242c0fde282?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYWtlc2lkZSUyMG1hbnNpb258ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "A grand lakeside mansion at dusk",
       "imageHint": "lakeside mansion"
     },
     {
       "id": "prop5-1",
-      "imageUrl": "https://images.unsplash.com/photo-1748512437457-cbb5ce4ea7e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW5zaW9uJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyMjk3Mjg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1748512437457-cbb5ce4ea7e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW5zaW9uJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyMjk3Mjg5fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "description": "Living room of lakeside mansion with view of the lake",
       "imageHint": "mansion interior"
     },
@@ -122,7 +152,7 @@
     },
     {
       "id": "team2",
-      "imageUrl": "https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIzMTM3MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIzMTM3MjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "description": "Professional headshot of a male real estate agent",
       "imageHint": "professional portrait"
     },
@@ -170,7 +200,7 @@
     },
     {
       "id": "blog2-thumb",
-      "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdGFnZWQlMjBob21lfGVufDB8fHx8MTc2MjQxMzAxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdGFnZWQlMjBob21lfGVufDB8fHx8MTc2MjQxMzAxM3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "description": "A beautifully staged living room",
       "imageHint": "staged home"
     },
@@ -182,7 +212,7 @@
     },
     {
       "id": "blog-detail",
-      "imageUrl": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZWFsJTIwZXN0YXRlJTIwYmxvZ3xlbnwwfHx8fDE3NjI0MTMwMTN8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZWFsJTIwZXN0YXRlJTIwYmxvZ3xlbnwwfHx8fDE3NjI0MTMwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "A person writing in a notebook with a laptop in the background",
       "imageHint": "real estate"
     }
