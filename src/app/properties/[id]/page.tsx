@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Separator } from "@/components/ui/separator";
+import { BackButton } from "@/components/back-button";
 
 export default function PropertyDetailPage({ params }: { params: { id: string } }) {
   const property = properties.find((p) => p.id === params.id);
@@ -29,6 +30,9 @@ export default function PropertyDetailPage({ params }: { params: { id: string } 
   return (
     <div className="bg-card">
       <div className="container mx-auto py-16 px-4">
+        <div className="max-w-4xl mx-auto mb-8">
+            <BackButton />
+        </div>
         {/* Image Carousel */}
         <Carousel className="w-full max-w-4xl mx-auto mb-8 rounded-lg overflow-hidden shadow-2xl">
           <CarouselContent>
