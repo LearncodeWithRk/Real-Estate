@@ -3,7 +3,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Building2, User, Phone, BookOpen, Menu, Search, Rss } from "lucide-react";
+import { Home, Building2, User, Phone, BookOpen, Menu, Rss } from "lucide-react";
 import { useState } from "react";
 
 import { APP_NAME } from "@/lib/constants";
@@ -55,10 +55,6 @@ export function Header() {
           {renderNavLinks()}
         </nav>
         <div className="flex flex-1 items-center justify-end gap-4">
-           <Button variant="ghost" size="icon">
-              <Search className="h-5 w-5" />
-              <span className="sr-only">Search</span>
-           </Button>
           <Button asChild>
             <Link href="/booking">
               <BookOpen className="mr-2 h-4 w-4" />
