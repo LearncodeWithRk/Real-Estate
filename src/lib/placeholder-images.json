@@ -8,9 +8,9 @@
     },
     {
       "id": "properties-header",
-      "imageUrl": "https://images.unsplash.com/photo-1618221195710-dd6b41fa2242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsaXZpbmclMjByb29tfGVufDB8fHx8MTc2MjQxMjI2NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "description": "A stylish and modern living room interior",
-      "imageHint": "modern livingroom"
+      "imageUrl": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBob3VzZXxlbnwwfHx8fDE3NjI0MTYyODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A beautiful modern house with a garage.",
+      "imageHint": "modern house"
     },
     {
       "id": "about-header",
@@ -128,13 +128,13 @@
     },
     {
       "id": "prop5-1",
-      "imageUrl": "https://images.unsplash.com/photo-1748512437457-cbb5ce4ea7e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW5zaW9uJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyMjk3Mjg5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1748512437457-cbb5ce4ea7e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW5zaW9uJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyMjk3Mjg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Living room of lakeside mansion with view of the lake",
       "imageHint": "mansion interior"
     },
     {
       "id": "prop6-thumb",
-      "imageUrl": "https://images.unsplash.com/photo-1715593949273-09009558300a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjIzMDcwNjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1715593949273-09009558300a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjIzMDcwNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Modern open-plan office interior",
       "imageHint": "office interior"
     },
@@ -152,7 +152,7 @@
     },
     {
       "id": "team2",
-      "imageUrl": "https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIzMTM3MjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIzMTM3MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Professional headshot of a male real estate agent",
       "imageHint": "professional portrait"
     },
@@ -170,13 +170,13 @@
     },
     {
       "id": "location2",
-      "imageUrl": "https://images.unsplash.com/photo-1631799157215-d35643544d59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxOZXdZb3JrJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1631799157215-d35643544d59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxOZXdZb3JrJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Flatiron building in New York City",
       "imageHint": "NewYork building"
     },
     {
       "id": "location3",
-      "imageUrl": "https://images.unsplash.com/photo-1604497853190-dc84f9a3f0bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxMb25kb24lMjBzdHJlZXR8ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1604497853190-dc84f9a3f0bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxMb25kb24lMjBzdHJlZXR8ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Street in London with the Eiffel Tower in the background",
       "imageHint": "London street"
     },
@@ -200,7 +200,7 @@
     },
     {
       "id": "blog2-thumb",
-      "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdGFnZWQlMjBob21lfGVufDB8fHx8MTc2MjQxMzAxM3ww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdGFnZWQlMjBob21lfGVufDB8fHx8MTc2MjQxMzAxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "A beautifully staged living room",
       "imageHint": "staged home"
     },
