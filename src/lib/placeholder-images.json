@@ -1,3 +1,106 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "imageUrl": "https://images.unsplash.com/photo-1670589953882-b94c9cb380f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBob3VzZXxlbnwwfHx8fDE3NjIzODYwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Modern house exterior with a pool at dusk",
+      "imageHint": "modern house"
+    },
+    {
+      "id": "about",
+      "imageUrl": "https://images.unsplash.com/photo-1568992688065-536aad8a12f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZWFtJTIwb2ZmaWNlfGVufDB8fHx8MTc2MjMyNjI1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A group of real estate agents in a modern office",
+      "imageHint": "team office"
+    },
+    {
+      "id": "contact",
+      "imageUrl": "https://images.unsplash.com/photo-1552370841-fbcb98e3bd4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkZXNrJTIwY29udGFjdHxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A person's hands typing on a laptop with a phone nearby",
+      "imageHint": "desk contact"
+    },
+    {
+      "id": "prop1-thumb",
+      "imageUrl": "https://images.unsplash.com/photo-1591474200742-8e512e6f98f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjB2aWxsYXxlbnwwfHx8fDE3NjIzNTUxNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Luxury villa with a large swimming pool",
+      "imageHint": "luxury villa"
+    },
+    {
+      "id": "prop1-1",
+      "imageUrl": "https://images.unsplash.com/photo-1638885930125-85350348d266?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsdXh1cnklMjBsaXZpbmdyb29tfGVufDB8fHx8MTc2MjQxMjI2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Spacious and modern living room of a luxury villa",
+      "imageHint": "luxury livingroom"
+    },
+    {
+      "id": "prop1-2",
+      "imageUrl": "https://images.unsplash.com/photo-1560185127-1902ccdc5094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb2Rlcm4lMjBraXRjaGVufGVufDB8fHx8MTc2MjMwNTM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Sleek, modern kitchen with an island in a luxury villa",
+      "imageHint": "modern kitchen"
+    },
+    {
+      "id": "prop1-3",
+      "imageUrl": "https://images.unsplash.com/photo-1569803856743-4c36a6281f87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWRyb29tJTIwdmlld3xlbnwwfHx8fDE3NjIzNjk1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Master bedroom with a balcony and ocean view",
+      "imageHint": "bedroom view"
+    },
+    {
+      "id": "prop2-thumb",
+      "imageUrl": "https://images.unsplash.com/photo-1605146768851-eda79da39897?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdWJ1cmJhbiUyMGhvdXNlfGVufDB8fHx8MTc2MjM2MDI1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Two-story suburban house with a green lawn",
+      "imageHint": "suburban house"
+    },
+    {
+      "id": "prop2-1",
+      "imageUrl": "https://images.unsplash.com/photo-1657803778026-4809284665fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3p5JTIwbGl2aW5ncm9vbXxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Cozy living room with a fireplace in a suburban house",
+      "imageHint": "cozy livingroom"
+    },
+    {
+      "id": "prop2-2",
+      "imageUrl": "https://images.unsplash.com/photo-1682105681743-8acc13fbb617?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmVlbiUyMGJhY2t5YXJkfGVufDB8fHx8MTc2MjMzNjkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Lush green backyard with a wooden deck",
+      "imageHint": "green backyard"
+    },
+    {
+      "id": "prop3-thumb",
+      "imageUrl": "https://images.unsplash.com/photo-1641289426957-1748d0b5de04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaXR5JTIwYXBhcnRtZW50fGVufDB8fHx8MTc2MjM4NTAwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Exterior of a modern city apartment building",
+      "imageHint": "city apartment"
+    },
+    {
+      "id": "prop3-1",
+      "imageUrl": "https://images.unsplash.com/photo-1757700050425-78f3f281b29a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2l0eSUyMGJhbGNvbnl8ZW58MHx8fHwxNzYyNDEwODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "View of a city skyline from a high-rise apartment balcony",
+      "imageHint": "city balcony"
+    },
+    {
+      "id": "prop4-thumb",
+      "imageUrl": "https://images.unsplash.com/photo-1756122567069-cb2df34d6022?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzcGFjaW91cyUyMGxvZnR8ZW58MHx8fHwxNzYyNDEyMjY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Interior of a spacious, open-plan industrial loft",
+      "imageHint": "spacious loft"
+    },
+    {
+      "id": "prop4-1",
+      "imageUrl": "https://images.unsplash.com/photo-1677273424729-63ae464f13e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsb2Z0JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyMzc0NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Bright and airy open plan living area of a loft apartment",
+      "imageHint": "loft interior"
+    },
+    {
+      "id": "team1",
+      "imageUrl": "https://images.unsplash.com/photo-1546961329-78bef0414d7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MjMzOTU2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Professional headshot of a female real estate agent",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "team2",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIzMTM3MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Professional headshot of a male real estate agent",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "team3",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MjMzOTU2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Friendly headshot of a female real estate agent",
+      "imageHint": "woman portrait"
+    }
+  ]
 }
