@@ -125,7 +125,7 @@ export default function Home() {
             <h2 className="text-3xl font-headline font-bold">Recommended For You</h2>
           </div>
           <div className="flex justify-center items-center gap-2 flex-wrap mb-8">
-            <Button variant="destructive" size="sm">View All</Button>
+            <Button size="sm">View All</Button>
             <Button variant="ghost" size="sm">Apartment</Button>
             <Button variant="ghost" size="sm">Villa</Button>
             <Button variant="ghost" size="sm">Studio</Button>
