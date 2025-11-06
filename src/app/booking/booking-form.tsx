@@ -53,14 +53,16 @@ export function BookingForm() {
 
   function onSubmit(data: BookingFormValues) {
     const selectedProperty = properties.find(p => p.id === data.propertyId);
-    const propertyInfo = selectedProperty ? ` for the property "${selectedProperty.title}"` : "";
+    const propertyInfo = selectedProperty
+      ? ` for the property "${selectedProperty.title}"`
+      : "";
     
     const message = `Hi! I'd like to book a viewing${propertyInfo}.
-Preferred date: ${format(data.date, "PPP")}
-Preferred time: ${data.time}
-My name is: ${data.name}`;
+Name: ${data.name}
+Preferred Date: ${format(data.date, "PPP")}
+Preferred Time: ${data.time}`;
 
-    const whatsappUrl = `${WHATSAPP_LINK}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `${WHATSAPP_LINK}&text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   }
 
@@ -163,12 +165,13 @@ My name is: ${data.name}`;
                 )}
               />
             </div>
-            <WhatsAppButton
-                message="Confirm on WhatsApp"
+            <Button
                 type="submit"
-                className="w-full"
+                className="w-full bg-green-500 hover:bg-green-600 text-white"
                 size="lg"
-            />
+            >
+              Confirm on WhatsApp
+            </Button>
           </form>
         </Form>
       </CardContent>

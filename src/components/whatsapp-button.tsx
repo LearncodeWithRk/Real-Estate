@@ -9,12 +9,11 @@ interface WhatsAppButtonProps extends ButtonProps {
 }
 
 export function WhatsAppButton({ message, prefilledMessage, className, ...props }: WhatsAppButtonProps) {
-  const url = prefilledMessage
-    ? `${WHATSAPP_LINK}?text=${encodeURIComponent(prefilledMessage)}`
-    : WHATSAPP_LINK;
+  const textParam = prefilledMessage ? `&text=${encodeURIComponent(prefilledMessage)}` : (WHATSAPP_LINK.includes('&text=') ? '' : '&text=');
+  const url = `${WHATSAPP_LINK}${textParam}`;
 
   return (
-    <Button asChild className={cn("bg-accent hover:bg-accent/90 text-accent-foreground", className)} {...props}>
+    <Button asChild className={cn("bg-green-500 hover:bg-green-600 text-white", className)} {...props}>
       <a href={url} target="_blank" rel="noopener noreferrer">
         <MessageCircle className="mr-2 h-5 w-5" />
         {message}
