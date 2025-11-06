@@ -1,11 +1,13 @@
 
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
+import Link from 'next/link';
 import { blogPosts } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
-import { CalendarDays, UserCircle } from 'lucide-react';
+import { CalendarDays, UserCircle, ArrowLeft } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 export default function BlogPostPage({ params }: { params: { id: string } }) {
   const post = blogPosts.find((p) => p.id === params.id);
@@ -19,6 +21,14 @@ export default function BlogPostPage({ params }: { params: { id: string } }) {
 
   return (
     <div className="container mx-auto max-w-4xl py-16 px-4">
+      <div className="mb-8">
+        <Button asChild variant="ghost">
+          <Link href="/blog">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Back to Blog
+          </Link>
+        </Button>
+      </div>
       <article>
         <header className="mb-8">
           <div className="text-center mb-4">
