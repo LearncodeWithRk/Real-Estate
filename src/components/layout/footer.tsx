@@ -62,23 +62,17 @@ export function Footer() {
           </div>
           <div>
             <h4 className="font-semibold mb-3">Easiest Way to Reach Us</h4>
-            {isClient ? (
-             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">
+            <a href={isClient ? WHATSAPP_LINK : undefined} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">
               <MessageCircle className="h-5 w-5" />
               <span>Chat on WhatsApp</span>
             </a>
-            ) : (
-              <div className="h-5" /> // Placeholder to prevent layout shift
-            )}
             <p className="text-sm text-muted-foreground mt-2">For quick bookings and property details.</p>
           </div>
         </div>
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
-          {isClient ? (
-            <p>&copy; {new Date().getFullYear()} {APP_NAME}. All rights reserved.</p>
-          ) : (
-            <p>&copy; {APP_NAME}. All rights reserved.</p> // Static fallback
-          )}
+          <p>
+            &copy; {isClient ? new Date().getFullYear() : ''} {APP_NAME}. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
