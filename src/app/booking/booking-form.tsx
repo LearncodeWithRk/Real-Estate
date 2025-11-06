@@ -50,7 +50,6 @@ export function BookingForm() {
       name: "",
       propertyId: "",
       time: "",
-      date: undefined,
     },
   });
 
