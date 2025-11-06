@@ -20,7 +20,7 @@
     },
     {
       "id": "contact",
-      "imageUrl": "https://images.unsplash.com/photo-1730094737470-585776d7f790?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkZXNrJTIwY29udGFjdHxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1730094737470-585776d7f790?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkZXNrJTIwY29udGFjdHxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "description": "A person's hands typing on a laptop with a phone nearby",
       "imageHint": "desk contact"
     },
@@ -56,7 +56,7 @@
     },
     {
       "id": "prop2-1",
-      "imageUrl": "https://images.unsplash.com/photo-1658893136904-63914a6b372c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb3p5JTIwbGl2aW5ncm9vbXxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1658893136904-63914a6b372c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb3p5JTIwbGl2aW5ncm9vbXxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "description": "Cozy living room with a fireplace in a suburban house",
       "imageHint": "cozy livingroom"
     },
@@ -80,19 +80,19 @@
     },
     {
       "id": "prop4-thumb",
-      "imageUrl": "https://images.unsplash.com/photo-1645451326375-b1736b6f77c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzcGFjaW91cyUyMGxvZnR8ZW58MHx8fHwxNzYyNDEyMjY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1645451326375-b1736b6f77c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzcGFjaW91cyUyMGxvZnR8ZW58MHx8fHwxNzYyNDEyMjY1fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "description": "Interior of a spacious, open-plan industrial loft",
       "imageHint": "spacious loft"
     },
     {
       "id": "prop4-1",
-      "imageUrl": "https://images.unsplash.com/photo-1680702699412-7df12ead8846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb2Z0JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyMzc0NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1680702699412-7df12ead8846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb2Z0JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyMzc0NDQ5fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "description": "Bright and airy open plan living area of a loft apartment",
       "imageHint": "loft interior"
     },
     {
       "id": "prop5-thumb",
-      "imageUrl": "https://images.unsplash.com/photo-1679683171686-6242c0fde282?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYWtlc2lkZSUyMG1hbnNpb258ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1679683171686-6242c0fde282?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYWtlc2lkZSUyMG1hbnNpb258ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "description": "A grand lakeside mansion at dusk",
       "imageHint": "lakeside mansion"
     },
@@ -104,7 +104,7 @@
     },
     {
       "id": "prop6-thumb",
-      "imageUrl": "https://images.unsplash.com/photo-1715593949273-09009558300a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjIzMDcwNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1715593949273-09009558300a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjIzMDcwNjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "description": "Modern open-plan office interior",
       "imageHint": "office interior"
     },
@@ -140,13 +140,13 @@
     },
     {
       "id": "location2",
-      "imageUrl": "https://images.unsplash.com/photo-1631799157215-d35643544d59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxOZXdZb3JrJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1631799157215-d35643544d59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxOZXdZb3JrJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "description": "Flatiron building in New York City",
       "imageHint": "NewYork building"
     },
     {
       "id": "location3",
-      "imageUrl": "https://images.unsplash.com/photo-1604497853190-dc84f9a3f0bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxMb25kb24lMjBzdHJlZXR8ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1604497853190-dc84f9a3f0bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxMb25kb24lMjBzdHJlZXR8ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "description": "Street in London with the Eiffel Tower in the background",
       "imageHint": "London street"
     },
@@ -182,7 +182,7 @@
     },
     {
       "id": "blog-detail",
-      "imageUrl": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZWFsJTIwZXN0YXRlJTIwYmxvZ3xlbnwwfHx8fDE3NjI0MTMwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZWFsJTIwZXN0YXRlJTIwYmxvZ3xlbnwwfHx8fDE3NjI0MTMwMTN8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "description": "A person writing in a notebook with a laptop in the background",
       "imageHint": "real estate"
     }
