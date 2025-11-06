@@ -1,8 +1,10 @@
+
 "use client";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Home, Building2, User, Phone, BookOpen, Menu, Search, Rss } from "lucide-react";
+import { useState } from "react";
 
 import { APP_NAME } from "@/lib/constants";
 import { cn } from "@/lib/utils";
@@ -19,12 +21,18 @@ const navLinks = [
 
 export function Header() {
   const pathname = usePathname();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    setIsMobileMenuOpen(false);
+  };
 
   const renderNavLinks = (isMobile = false) =>
     navLinks.map((link) => (
       <Link
         key={link.href}
         href={link.href}
+        onClick={isMobile ? handleLinkClick : undefined}
         className={cn(
           "transition-colors hover:text-primary",
           pathname === link.href ? "text-primary font-semibold" : "text-gray-600",
@@ -57,7 +65,7 @@ export function Header() {
               Book Viewing
             </Link>
           </Button>
-          <Sheet>
+          <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon" className="md:hidden">
                 <Menu className="h-5 w-5" />
@@ -65,14 +73,14 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left">
-              <Link href="/" className="flex items-center gap-2 mb-6">
+              <Link href="/" className="flex items-center gap-2 mb-6" onClick={handleLinkClick}>
                 <Home className="h-6 w-6 text-primary" />
                 <span className="font-bold text-lg">{APP_NAME}</span>
               </Link>
               <nav className="flex flex-col gap-4">
                 {renderNavLinks(true)}
                  <Button asChild size="lg" className="text-lg mt-4">
-                    <Link href="/booking">
+                    <Link href="/booking" onClick={handleLinkClick}>
                         <BookOpen className="mr-2 h-5 w-5" />
                         Book Viewing
                     </Link>
