@@ -118,8 +118,8 @@ export default function Home() {
       </section>
 
       {/* Featured Properties Section */}
-      <section className="py-16 md:py-24 bg-background">
-        <div className="container mx-auto px-4">
+      <section className="py-16 md:py-24 bg-background px-4">
+        <div className="container mx-auto">
           <div className="text-center mb-12">
             <span className="text-primary font-semibold text-sm">FEATURED PROPERTIES</span>
             <h2 className="text-3xl font-headline font-bold">Recommended For You</h2>
@@ -138,7 +138,7 @@ export default function Home() {
             ))}
           </div>
           <div className="text-center mt-12">
-            <Button asChild size="lg" variant="destructive">
+            <Button asChild size="lg">
               <Link href="/properties">View All Properties</Link>
             </Button>
           </div>
@@ -146,8 +146,8 @@ export default function Home() {
       </section>
 
       {/* Our Location For You Section */}
-      <section className="py-16 md:py-24 bg-muted">
-        <div className="container mx-auto px-4">
+      <section className="py-16 md:py-24 bg-muted px-4">
+        <div className="container mx-auto">
           <div className="text-center mb-12">
             <span className="text-primary font-semibold text-sm">EXPLORE CITIES</span>
             <h2 className="text-3xl font-headline font-bold">Our Location For You</h2>
@@ -189,8 +189,8 @@ export default function Home() {
       </section>
 
         {/* What We Do Section */}
-        <section className="py-16 md:py-24 bg-background">
-          <div className="container mx-auto px-4">
+        <section className="py-16 md:py-24 bg-background px-4">
+          <div className="container mx-auto">
             <div className="text-center mb-12">
               <span className="text-primary font-semibold text-sm">OUR SERVICES</span>
               <h2 className="text-3xl font-headline font-bold">What We Do?</h2>
@@ -222,8 +222,8 @@ export default function Home() {
         </section>
 
       {/* Stats Section */}
-      <section className="py-12 bg-muted">
-        <div className="container mx-auto px-4">
+      <section className="py-12 bg-muted px-4">
+        <div className="container mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <p className="text-4xl font-bold text-primary">61</p>
@@ -246,8 +246,8 @@ export default function Home() {
       </section>
 
       {/* Why Choose Section */}
-       <section className="py-16 md:py-24 bg-background">
-          <div className="container mx-auto px-4">
+       <section className="py-16 md:py-24 bg-background px-4">
+          <div className="container mx-auto">
             <div className="text-center mb-12">
               <span className="text-primary font-semibold text-sm">OUR BENEFIT</span>
               <h2 className="text-3xl font-headline font-bold">Why Choose Homeya</h2>
@@ -280,7 +280,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
-
-    
