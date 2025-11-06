@@ -21,7 +21,7 @@ export function Footer() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div>
                     <h2 className="text-3xl font-bold ml-8">Become a real estate agent</h2>
-                    <p>We only work with the best companies around the globe</p>
+                    <p className="ml-8">We only work with the best companies around the globe</p>
                 </div>
                 <div className="flex gap-4">
                     <Input placeholder="Enter your email" className="bg-white/20 placeholder:text-white/70 border-white/30 text-white"/>
