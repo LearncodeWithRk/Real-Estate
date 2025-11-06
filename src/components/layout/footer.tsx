@@ -30,7 +30,7 @@ export function Footer() {
             </div>
         </div>
       </div>
-      <div className="container py-12">
+      <div className="container py-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
