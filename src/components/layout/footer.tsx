@@ -18,11 +18,11 @@ export function Footer() {
   return (
     <footer className="border-t bg-card">
       <div className="bg-primary text-primary-foreground py-20">
-        <div className="container">
+        <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div>
-                    <h2 className="text-3xl font-bold ml-8">Become a real estate agent</h2>
-                    <p className="ml-8">We only work with the best companies around the globe</p>
+                    <h2 className="text-3xl font-bold">Become a real estate agent</h2>
+                    <p>We only work with the best companies around the globe</p>
                 </div>
                 <div className="flex gap-4">
                     <Input placeholder="Enter your email" className="bg-white/20 placeholder:text-white/70 border-white/30 text-white"/>
@@ -31,7 +31,7 @@ export function Footer() {
             </div>
         </div>
       </div>
-      <div className="container py-20 ml-4">
+      <div className="container mx-auto py-20 px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">

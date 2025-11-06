@@ -39,7 +39,7 @@ export default function Home() {
           />
         )}
         <div className="absolute inset-0 bg-black/50" />
-        <div className="relative container mx-auto h-full flex flex-col justify-center items-start text-primary-foreground">
+        <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-start text-primary-foreground">
           <div className="max-w-2xl">
             <h1 className="text-4xl md:text-6xl font-headline font-bold drop-shadow-md">
               Find Your Dream Home
@@ -119,7 +119,7 @@ export default function Home() {
 
       {/* Featured Properties Section */}
       <section className="py-16 md:py-24 bg-background">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <span className="text-primary font-semibold text-sm">FEATURED PROPERTIES</span>
             <h2 className="text-3xl font-headline font-bold">Recommended For You</h2>
@@ -147,7 +147,7 @@ export default function Home() {
 
       {/* Our Location For You Section */}
       <section className="py-16 md:py-24 bg-muted">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <span className="text-primary font-semibold text-sm">EXPLORE CITIES</span>
             <h2 className="text-3xl font-headline font-bold">Our Location For You</h2>
@@ -190,7 +190,7 @@ export default function Home() {
 
         {/* What We Do Section */}
         <section className="py-16 md:py-24 bg-background">
-          <div className="container mx-auto">
+          <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <span className="text-primary font-semibold text-sm">OUR SERVICES</span>
               <h2 className="text-3xl font-headline font-bold">What We Do?</h2>
@@ -223,7 +223,7 @@ export default function Home() {
 
       {/* Stats Section */}
       <section className="py-12 bg-muted">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <p className="text-4xl font-bold text-primary">61</p>
@@ -247,7 +247,7 @@ export default function Home() {
 
       {/* Why Choose Section */}
        <section className="py-16 md:py-24 bg-background">
-          <div className="container mx-auto">
+          <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <span className="text-primary font-semibold text-sm">OUR BENEFIT</span>
               <h2 className="text-3xl font-headline font-bold">Why Choose Homeya</h2>

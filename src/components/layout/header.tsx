@@ -46,7 +46,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-20 items-center">
+      <div className="container flex h-20 items-center mx-auto px-4">
         <Link href="/" className="flex items-center gap-2 mr-6">
           <Home className="h-8 w-8 text-primary" />
           <span className="font-bold text-2xl">{APP_NAME}</span>
