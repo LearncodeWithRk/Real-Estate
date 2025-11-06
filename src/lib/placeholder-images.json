@@ -2,105 +2,159 @@
   "placeholderImages": [
     {
       "id": "hero",
-      "imageUrl": "https://images.unsplash.com/photo-1670589953882-b94c9cb380f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBob3VzZXxlbnwwfHx8fDE3NjIzODYwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "description": "Modern house exterior with a pool at dusk",
+      "imageUrl": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBob3VzZXxlbnwwfHx8fDE3NjIzODYwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Modern house exterior with a dark facade and large windows, surrounded by trees",
       "imageHint": "modern house"
     },
     {
       "id": "about",
-      "imageUrl": "https://images.unsplash.com/photo-1568992688065-536aad8a12f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZWFtJTIwb2ZmaWNlfGVufDB8fHx8MTc2MjMyNjI1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwb2ZmaWNlfGVufDB8fHx8MTc2MjMyNjI1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "A group of real estate agents in a modern office",
       "imageHint": "team office"
     },
     {
       "id": "contact",
-      "imageUrl": "https://images.unsplash.com/photo-1552370841-fbcb98e3bd4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkZXNrJTIwY29udGFjdHxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1730094737470-585776d7f790?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkZXNrJTIwY29udGFjdHxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "A person's hands typing on a laptop with a phone nearby",
       "imageHint": "desk contact"
     },
     {
       "id": "prop1-thumb",
-      "imageUrl": "https://images.unsplash.com/photo-1591474200742-8e512e6f98f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjB2aWxsYXxlbnwwfHx8fDE3NjIzNTUxNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjB2aWxsYXxlbnwwfHx8fDE3NjIzNTUxNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Luxury villa with a large swimming pool",
       "imageHint": "luxury villa"
     },
     {
       "id": "prop1-1",
-      "imageUrl": "https://images.unsplash.com/photo-1638885930125-85350348d266?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsdXh1cnklMjBsaXZpbmdyb29tfGVufDB8fHx8MTc2MjQxMjI2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1654175868733-6e60cc6f9ff4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBsaXZpbmdyb29tfGVufDB8fHx8MTc2MjQxMjI2NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Spacious and modern living room of a luxury villa",
       "imageHint": "luxury livingroom"
     },
     {
       "id": "prop1-2",
-      "imageUrl": "https://images.unsplash.com/photo-1560185127-1902ccdc5094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb2Rlcm4lMjBraXRjaGVufGVufDB8fHx8MTc2MjMwNTM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1639405069836-f82aa6dcb900?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2Rlcm4lMjBraXRjaGVufGVufDB8fHx8MTc2MjMwNTM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Sleek, modern kitchen with an island in a luxury villa",
       "imageHint": "modern kitchen"
     },
     {
       "id": "prop1-3",
-      "imageUrl": "https://images.unsplash.com/photo-1569803856743-4c36a6281f87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWRyb29tJTIwdmlld3xlbnwwfHx8fDE3NjIzNjk1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1568106473490-3be0efdfc7c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiZWRyb29tJTIwdmlld3xlbnwwfHx8fDE3NjIzNjk1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Master bedroom with a balcony and ocean view",
       "imageHint": "bedroom view"
     },
     {
       "id": "prop2-thumb",
-      "imageUrl": "https://images.unsplash.com/photo-1605146768851-eda79da39897?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdWJ1cmJhbiUyMGhvdXNlfGVufDB8fHx8MTc2MjM2MDI1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdWJ1cmJhbiUyMGhvdXNlfGVufDB8fHx8MTc2MjM2MDI1MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Two-story suburban house with a green lawn",
       "imageHint": "suburban house"
     },
     {
       "id": "prop2-1",
-      "imageUrl": "https://images.unsplash.com/photo-1657803778026-4809284665fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3p5JTIwbGl2aW5ncm9vbXxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1658893136904-63914a6b372c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb3p5JTIwbGl2aW5ncm9vbXxlbnwwfHx8fDE3NjI0MTIyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Cozy living room with a fireplace in a suburban house",
       "imageHint": "cozy livingroom"
     },
     {
       "id": "prop2-2",
-      "imageUrl": "https://images.unsplash.com/photo-1682105681743-8acc13fbb617?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmVlbiUyMGJhY2t5YXJkfGVufDB8fHx8MTc2MjMzNjkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1682105681729-3e7ebcb5eeb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxncmVlbiUyMGJhY2t5YXJkfGVufDB8fHx8MTc2MjMzNjkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Lush green backyard with a wooden deck",
       "imageHint": "green backyard"
     },
     {
       "id": "prop3-thumb",
-      "imageUrl": "https://images.unsplash.com/photo-1641289426957-1748d0b5de04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaXR5JTIwYXBhcnRtZW50fGVufDB8fHx8MTc2MjM4NTAwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1665764067783-3df42669b262?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaXR5JTIwYXBhcnRtZW50fGVufDB8fHx8MTc2MjM4NTAwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Exterior of a modern city apartment building",
       "imageHint": "city apartment"
     },
     {
       "id": "prop3-1",
-      "imageUrl": "https://images.unsplash.com/photo-1757700050425-78f3f281b29a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2l0eSUyMGJhbGNvbnl8ZW58MHx8fHwxNzYyNDEwODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1552673548-b5f7f88fc010?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaXR5JTIwYmFsY29ueXxlbnwwfHx8fDE3NjI0MTA4NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "View of a city skyline from a high-rise apartment balcony",
       "imageHint": "city balcony"
     },
     {
       "id": "prop4-thumb",
-      "imageUrl": "https://images.unsplash.com/photo-1756122567069-cb2df34d6022?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzcGFjaW91cyUyMGxvZnR8ZW58MHx8fHwxNzYyNDEyMjY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1645451326375-b1736b6f77c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzcGFjaW91cyUyMGxvZnR8ZW58MHx8fHwxNzYyNDEyMjY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Interior of a spacious, open-plan industrial loft",
       "imageHint": "spacious loft"
     },
     {
       "id": "prop4-1",
-      "imageUrl": "https://images.unsplash.com/photo-1677273424729-63ae464f13e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsb2Z0JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyMzc0NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1680702699412-7df12ead8846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb2Z0JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyMzc0NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Bright and airy open plan living area of a loft apartment",
       "imageHint": "loft interior"
     },
     {
+      "id": "prop5-thumb",
+      "imageUrl": "https://images.unsplash.com/photo-1679683171686-6242c0fde282?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYWtlc2lkZSUyMG1hbnNpb258ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A grand lakeside mansion at dusk",
+      "imageHint": "lakeside mansion"
+    },
+    {
+      "id": "prop5-1",
+      "imageUrl": "https://images.unsplash.com/photo-1748512437457-cbb5ce4ea7e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW5zaW9uJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyMjk3Mjg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Living room of lakeside mansion with view of the lake",
+      "imageHint": "mansion interior"
+    },
+    {
+      "id": "prop6-thumb",
+      "imageUrl": "https://images.unsplash.com/photo-1715593949273-09009558300a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjIzMDcwNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Modern open-plan office interior",
+      "imageHint": "office interior"
+    },
+    {
+      "id": "prop6-1",
+      "imageUrl": "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb25mZXJlbmNlJTIwcm9vbXxlbnwwfHx8fDE3NjIzNjk1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Glass-walled conference room in a modern office",
+      "imageHint": "conference room"
+    },
+    {
       "id": "team1",
-      "imageUrl": "https://images.unsplash.com/photo-1546961329-78bef0414d7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MjMzOTU2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MjMzOTU2MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Professional headshot of a female real estate agent",
       "imageHint": "woman portrait"
     },
     {
       "id": "team2",
-      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIzMTM3MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIzMTM3MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Professional headshot of a male real estate agent",
       "imageHint": "professional portrait"
     },
     {
       "id": "team3",
-      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MjMzOTU2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1557053908-4793c484d06f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MjMzOTU2MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Friendly headshot of a female real estate agent",
       "imageHint": "woman portrait"
+    },
+    {
+      "id": "location1",
+      "imageUrl": "https://images.unsplash.com/photo-1561488111-5d800fd56b8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxTeWRuZXklMjBza3lsaW5lfGVufDB8fHx8MTc2MjQxMzAxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Sydney Opera House and skyline",
+      "imageHint": "Sydney skyline"
+    },
+    {
+      "id": "location2",
+      "imageUrl": "https://images.unsplash.com/photo-1631799157215-d35643544d59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxOZXdZb3JrJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Flatiron building in New York City",
+      "imageHint": "NewYork building"
+    },
+    {
+      "id": "location3",
+      "imageUrl": "https://images.unsplash.com/photo-1604497853190-dc84f9a3f0bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxMb25kb24lMjBzdHJlZXR8ZW58MHx8fHwxNzYyNDEzMDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Street in London with the Eiffel Tower in the background",
+      "imageHint": "London street"
+    },
+    {
+      "id": "location4",
+      "imageUrl": "https://images.unsplash.com/photo-1606410688276-103f1982f342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxDYXBlVG93biUyMGhvdXNlc3xlbnwwfHx8fDE3NjI0MTMwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Colorful houses in Bo-Kaap, Cape Town",
+      "imageHint": "CapeTown houses"
+    },
+    {
+      "id": "location5",
+      "imageUrl": "https://images.unsplash.com/photo-1703926904171-6a87ea1795ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxVSyUyMHN0cmVldHxlbnwwfHx8fDE3NjI0MTMwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A street in the United Kingdom",
+      "imageHint": "UK street"
     }
   ]
 }

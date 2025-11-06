@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Building2, User, Phone, BookOpen, Bot, Menu } from "lucide-react";
+import { Home, Building2, User, Phone, BookOpen, Bot, Menu, Search } from "lucide-react";
 
 import { APP_NAME } from "@/lib/constants";
 import { cn } from "@/lib/utils";
@@ -27,7 +27,7 @@ export function Header() {
         href={link.href}
         className={cn(
           "transition-colors hover:text-primary",
-          pathname === link.href ? "text-primary font-semibold" : "text-muted-foreground",
+          pathname === link.href ? "text-primary font-semibold" : "text-gray-600",
           isMobile && "flex items-center gap-3 text-lg py-2"
         )}
       >
@@ -38,16 +38,20 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center">
+      <div className="container flex h-20 items-center">
         <Link href="/" className="flex items-center gap-2 mr-6">
-          <Home className="h-6 w-6 text-primary" />
-          <span className="font-bold text-lg">{APP_NAME}</span>
+          <Home className="h-8 w-8 text-primary" />
+          <span className="font-bold text-2xl">{APP_NAME}</span>
         </Link>
-        <nav className="hidden md:flex items-center gap-6 text-sm">
+        <nav className="hidden md:flex items-center gap-8 text-base font-medium">
           {renderNavLinks()}
         </nav>
-        <div className="flex flex-1 items-center justify-end gap-2">
-          <Button asChild className="hidden md:flex bg-accent hover:bg-accent/90 text-accent-foreground">
+        <div className="flex flex-1 items-center justify-end gap-4">
+           <Button variant="ghost" size="icon">
+              <Search className="h-5 w-5" />
+              <span className="sr-only">Search</span>
+           </Button>
+          <Button asChild>
             <Link href="/booking">
               <BookOpen className="mr-2 h-4 w-4" />
               Book Viewing
@@ -67,7 +71,7 @@ export function Header() {
               </Link>
               <nav className="flex flex-col gap-4">
                 {renderNavLinks(true)}
-                 <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg mt-4">
+                 <Button asChild size="lg" className="text-lg mt-4">
                     <Link href="/booking">
                         <BookOpen className="mr-2 h-5 w-5" />
                         Book Viewing

@@ -4,24 +4,38 @@ import { APP_NAME, WHATSAPP_LINK } from "@/lib/constants";
 import { Home, MessageCircle } from "lucide-react";
 import Link from "next/link";
 import React from "react";
+import { Button } from "../ui/button";
+import { Input } from "../ui/input";
 
 export function Footer() {
   const [year, setYear] = React.useState(new Date().getFullYear());
 
   React.useEffect(() => {
-    // This effect runs only on the client, ensuring no hydration mismatch
-    // while keeping server-side rendering consistent.
     setYear(new Date().getFullYear());
   }, []);
 
   return (
     <footer className="border-t bg-card">
+      <div className="bg-primary text-primary-foreground py-12">
+        <div className="container">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 className="text-3xl font-bold">Become a real estate agent</h2>
+                    <p>We only work with the best companies around the globe</p>
+                </div>
+                <div className="flex gap-4">
+                    <Input placeholder="Enter your email" className="bg-white/20 placeholder:text-white/70 border-white/30 text-white"/>
+                    <Button variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-primary">Register</Button>
+                </div>
+            </div>
+        </div>
+      </div>
       <div className="container py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
-              <Home className="h-6 w-6 text-primary" />
-              <span className="font-bold text-lg">{APP_NAME}</span>
+              <Home className="h-8 w-8 text-primary" />
+              <span className="font-bold text-2xl">{APP_NAME}</span>
             </Link>
             <p className="text-muted-foreground text-sm">
               Your partner in finding the perfect property.
@@ -41,7 +55,7 @@ export function Footer() {
             <address className="not-italic text-sm text-muted-foreground space-y-1">
               <p>123 Real Estate Ave, Suite 100</p>
               <p>Realty City, RC 12345</p>
-              <a href="mailto:contact@homeview.com" className="mt-2 block hover:text-primary transition-colors">contact@homeview.com</a>
+              <a href="mailto:contact@homeya.com" className="mt-2 block hover:text-primary transition-colors">contact@homeya.com</a>
             </address>
           </div>
           <div>

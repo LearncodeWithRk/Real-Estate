@@ -21,6 +21,7 @@ export type Property = {
     galleryIds: string[];
   };
   type: 'For Sale' | 'For Rent';
+  category?: 'Apartment' | 'Villa' | 'Studio' | 'House' | 'Office';
 };
 
 export type TeamMember = {
@@ -53,6 +54,7 @@ export const properties: Property[] = [
       galleryIds: ['prop1-1', 'prop1-2', 'prop1-3'],
     },
     type: 'For Sale',
+    category: 'Villa'
   },
   {
     id: '2',
@@ -74,6 +76,7 @@ export const properties: Property[] = [
       galleryIds: ['prop2-1', 'prop2-2'],
     },
     type: 'For Sale',
+    category: 'House'
   },
   {
     id: '3',
@@ -95,6 +98,7 @@ export const properties: Property[] = [
       galleryIds: ['prop3-1'],
     },
     type: 'For Rent',
+    category: 'Apartment'
   },
   {
     id: '4',
@@ -116,6 +120,50 @@ export const properties: Property[] = [
       galleryIds: ['prop4-1'],
     },
     type: 'For Rent',
+    category: 'Studio'
+  },
+   {
+    id: '5',
+    title: 'Lakeside Mansion',
+    location: 'Lake Tahoe, California',
+    price: 7250000,
+    size: 6000,
+    bedrooms: 6,
+    bathrooms: 7,
+    description: 'An exquisite mansion on the shores of Lake Tahoe. Private dock, expansive decks, and panoramic lake views from every room. A true masterpiece of design and comfort.',
+    amenities: [
+      { name: 'Private Dock', icon: Award },
+      { name: 'Lake View', icon: Sun },
+      { name: 'Fireplace', icon: Trees },
+      { name: 'Garage', icon: Car },
+    ],
+    images: {
+      thumbnailId: 'prop5-thumb',
+      galleryIds: ['prop5-1'],
+    },
+    type: 'For Sale',
+    category: 'Villa',
+  },
+  {
+    id: '6',
+    title: 'Commercial Office Space',
+    location: 'San Francisco, California',
+    price: 15000,
+    size: 5000,
+    bedrooms: 0,
+    bathrooms: 4,
+    description: 'Prime office space in the financial district. Open floor plan, conference rooms, and modern amenities. Perfect for a growing tech company.',
+    amenities: [
+        { name: 'WiFi', icon: Wifi },
+        { name: 'Conference Rooms', icon: Building },
+        { name: 'Kitchenette', icon: Utensils },
+    ],
+    images: {
+      thumbnailId: 'prop6-thumb',
+      galleryIds: ['prop6-1'],
+    },
+    type: 'For Rent',
+    category: 'Office',
   },
 ];
 
