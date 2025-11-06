@@ -7,6 +7,12 @@
       "imageHint": "modern house"
     },
     {
+      "id": "properties-header",
+      "imageUrl": "https://images.unsplash.com/photo-1618221195710-dd6b41fa2242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsaXZpbmclMjByb29tfGVufDB8fHx8MTc2MjQxMjI2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A stylish and modern living room interior",
+      "imageHint": "modern livingroom"
+    },
+    {
       "id": "about",
       "imageUrl": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwb2ZmaWNlfGVufDB8fHx8MTc2MjMyNjI1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "A group of real estate agents in a modern office",
@@ -152,7 +158,7 @@
     },
     {
       "id": "location5",
-      "imageUrl": "https://images.unsplash.com/photo-1703926904171-6a87ea1795ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxVSyUyMHN0cmVldHxlbnwwfHx8fDE3NjI0MTMwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1703926904171-6a87ea1795ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxVSyUyMHN0cmVldHxlbnwwfHx8fDE3NjI0MTMwMTN8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "description": "A street in the United Kingdom",
       "imageHint": "UK street"
     },
