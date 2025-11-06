@@ -1,3 +1,4 @@
+
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -45,6 +46,12 @@ export function BookingForm() {
 
   const form = useForm<BookingFormValues>({
     resolver: zodResolver(bookingSchema),
+    defaultValues: {
+      name: "",
+      propertyId: "",
+      time: "",
+      date: undefined,
+    },
   });
 
   function onSubmit(data: BookingFormValues) {
