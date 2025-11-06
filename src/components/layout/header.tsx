@@ -9,7 +9,7 @@ import { useState } from "react";
 import { APP_NAME } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 
 const navLinks = [
   { href: "/", label: "Home", icon: Home },
@@ -73,6 +73,12 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left">
+              <SheetHeader className="sr-only">
+                <SheetTitle>Navigation Menu</SheetTitle>
+                <SheetDescription>
+                  Main navigation links for the site.
+                </SheetDescription>
+              </SheetHeader>
               <Link href="/" className="flex items-center gap-2 mb-6" onClick={handleLinkClick}>
                 <Home className="h-6 w-6 text-primary" />
                 <span className="font-bold text-lg">{APP_NAME}</span>
