@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import { PropertyCard } from "@/components/property-card";
 import { properties } from "@/lib/data";
@@ -26,7 +27,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative h-[80vh] md:h-[90vh] w-full">
+      <section className="relative h-[90vh] w-full">
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
@@ -53,55 +54,63 @@ export default function Home() {
               <TabsTrigger value="for-sale" className="data-[state=active]:bg-white data-[state=active]:text-gray-900 text-white px-6 py-2 rounded-t-md border-b-0">For Sale</TabsTrigger>
             </TabsList>
             <TabsContent value="for-rent" className="bg-white p-6 rounded-b-md rounded-r-md shadow-lg">
-              <div className="grid grid-cols-1 md:grid-cols-5 gap-4 items-center">
-                <Input placeholder="Search Keyword" className="md:col-span-1" />
-                <Input placeholder="Search Location" className="md:col-span-1" />
-                 <Select>
-                  <SelectTrigger>
-                    <SelectValue placeholder="Type" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="apartment">Apartment</SelectItem>
-                    <SelectItem value="villa">Villa</SelectItem>
-                    <SelectItem value="studio">Studio</SelectItem>
-                    <SelectItem value="house">House</SelectItem>
-                    <SelectItem value="office">Office</SelectItem>
-                  </SelectContent>
-                </Select>
-                <Button variant="ghost" className="flex items-center gap-2">
-                  <SlidersHorizontal className="w-4 h-4"/>
-                  Advanced
-                </Button>
-                <Button className="md:col-span-1 bg-primary text-primary-foreground">
-                  <Search className="w-4 h-4 mr-2" />
-                  Find Properties
-                </Button>
+              <div className="flex flex-col md:flex-row items-center gap-4">
+                <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                  <Input placeholder="Search Keyword" />
+                  <Input placeholder="Search Location" />
+                   <Select>
+                    <SelectTrigger>
+                      <SelectValue placeholder="Type" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="apartment">Apartment</SelectItem>
+                      <SelectItem value="villa">Villa</SelectItem>
+                      <SelectItem value="studio">Studio</SelectItem>
+                      <SelectItem value="house">House</SelectItem>
+                      <SelectItem value="office">Office</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+                <div className="w-full md:w-auto flex flex-col sm:flex-row gap-4">
+                  <Button variant="ghost" className="flex items-center gap-2 w-full sm:w-auto justify-center text-card-foreground">
+                    <SlidersHorizontal className="w-4 h-4"/>
+                    Advanced
+                  </Button>
+                  <Button className="w-full sm:w-auto bg-primary text-primary-foreground">
+                    <Search className="w-4 h-4 mr-2" />
+                    Find Properties
+                  </Button>
+                </div>
               </div>
             </TabsContent>
             <TabsContent value="for-sale" className="bg-white p-6 rounded-b-md rounded-r-md shadow-lg">
-               <div className="grid grid-cols-1 md:grid-cols-5 gap-4 items-center">
-                <Input placeholder="Search Keyword" className="md:col-span-1" />
-                <Input placeholder="Search Location" className="md:col-span-1" />
-                 <Select>
-                  <SelectTrigger>
-                    <SelectValue placeholder="Type" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="apartment">Apartment</SelectItem>
-                    <SelectItem value="villa">Villa</SelectItem>
-                    <SelectItem value="studio">Studio</SelectItem>
-                    <SelectItem value="house">House</SelectItem>
-                    <SelectItem value="office">Office</SelectItem>
-                  </SelectContent>
-                </Select>
-                <Button variant="ghost" className="flex items-center gap-2">
-                  <SlidersHorizontal className="w-4 h-4"/>
-                  Advanced
-                </Button>
-                <Button className="md:col-span-1 bg-primary text-primary-foreground">
-                  <Search className="w-4 h-4 mr-2" />
-                  Find Properties
-                </Button>
+               <div className="flex flex-col md:flex-row items-center gap-4">
+                <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                  <Input placeholder="Search Keyword" />
+                  <Input placeholder="Search Location" />
+                   <Select>
+                    <SelectTrigger>
+                      <SelectValue placeholder="Type" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="apartment">Apartment</SelectItem>
+                      <SelectItem value="villa">Villa</SelectItem>
+                      <SelectItem value="studio">Studio</SelectItem>
+                      <SelectItem value="house">House</SelectItem>
+                      <SelectItem value="office">Office</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+                <div className="w-full md:w-auto flex flex-col sm:flex-row gap-4">
+                  <Button variant="ghost" className="flex items-center gap-2 w-full sm:w-auto justify-center text-card-foreground">
+                    <SlidersHorizontal className="w-4 h-4"/>
+                    Advanced
+                  </Button>
+                  <Button className="w-full sm:w-auto bg-primary text-primary-foreground">
+                    <Search className="w-4 h-4 mr-2" />
+                    Find Properties
+                  </Button>
+                </div>
               </div>
             </TabsContent>
           </Tabs>
@@ -271,3 +280,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
