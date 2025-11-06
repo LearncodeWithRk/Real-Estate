@@ -39,8 +39,8 @@ export default function Home() {
           />
         )}
         <div className="absolute inset-0 bg-black/50" />
-        <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-start text-primary-foreground">
-          <div className="max-w-2xl">
+        <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-start">
+          <div className="max-w-2xl text-primary-foreground">
             <h1 className="text-4xl md:text-6xl font-headline font-bold drop-shadow-md">
               Find Your Dream Home
             </h1>
@@ -280,5 +280,7 @@ export default function Home() {
     </div>
   );
 }
+
+    
 
     
