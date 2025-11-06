@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Building2, User, Phone, BookOpen, Menu, Search } from "lucide-react";
+import { Home, Building2, User, Phone, BookOpen, Menu, Search, Rss } from "lucide-react";
 
 import { APP_NAME } from "@/lib/constants";
 import { cn } from "@/lib/utils";
@@ -13,6 +13,7 @@ const navLinks = [
   { href: "/", label: "Home", icon: Home },
   { href: "/properties", label: "Properties", icon: Building2 },
   { href: "/about", label: "About Us", icon: User },
+  { href: "/blog", label: "Blog", icon: Rss },
   { href: "/contact", label: "Contact", icon: Phone },
 ];
 
