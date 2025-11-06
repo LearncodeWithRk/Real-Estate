@@ -40,7 +40,7 @@ export default function Home() {
         )}
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-start">
-          <div className="max-w-2xl text-primary-foreground">
+          <div className="max-w-2xl text-primary-foreground text-left">
             <h1 className="text-4xl md:text-6xl font-headline font-bold drop-shadow-md">
               Find Your Dream Home
             </h1>
@@ -124,13 +124,13 @@ export default function Home() {
             <span className="text-primary font-semibold text-sm">FEATURED PROPERTIES</span>
             <h2 className="text-3xl font-headline font-bold">Recommended For You</h2>
           </div>
-          <div className="flex justify-center items-center gap-4 mb-8">
-            <Button variant="destructive">View All</Button>
-            <Button variant="ghost">Apartment</Button>
-            <Button variant="ghost">Villa</Button>
-            <Button variant="ghost">Studio</Button>
-            <Button variant="ghost">House</Button>
-            <Button variant="ghost">Office</Button>
+          <div className="flex justify-center items-center gap-2 flex-wrap mb-8">
+            <Button variant="destructive" size="sm">View All</Button>
+            <Button variant="ghost" size="sm">Apartment</Button>
+            <Button variant="ghost" size="sm">Villa</Button>
+            <Button variant="ghost" size="sm">Studio</Button>
+            <Button variant="ghost" size="sm">House</Button>
+            <Button variant="ghost" size="sm">Office</Button>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredProperties.map((property) => (
