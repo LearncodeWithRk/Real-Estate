@@ -4,7 +4,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
-import { CalendarIcon, Clock } from "lucide-react";
+import { CalendarIcon } from "lucide-react";
 import { format } from "date-fns";
 
 import { Button } from "@/components/ui/button";
@@ -30,7 +30,7 @@ import { Calendar } from "@/components/ui/calendar";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { properties } from "@/lib/data";
 import { cn } from "@/lib/utils";
-import { useState } from "react";
+import { WHATSAPP_LINK } from "@/lib/constants";
 
 const bookingSchema = z.object({
   name: z.string().min(2, "Name is too short"),
@@ -42,8 +42,6 @@ const bookingSchema = z.object({
 type BookingFormValues = z.infer<typeof bookingSchema>;
 
 export function BookingForm() {
-  const [prefilledMessage, setPrefilledMessage] = useState("");
-
   const form = useForm<BookingFormValues>({
     resolver: zodResolver(bookingSchema),
     defaultValues: {
@@ -62,7 +60,8 @@ Preferred date: ${format(data.date, "PPP")}
 Preferred time: ${data.time}
 My name is: ${data.name}`;
 
-    setPrefilledMessage(message);
+    const whatsappUrl = `${WHATSAPP_LINK}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
   }
 
   return (
@@ -164,15 +163,12 @@ My name is: ${data.name}`;
                 )}
               />
             </div>
-            {prefilledMessage ? (
-                <WhatsAppButton
-                    message="Confirm on WhatsApp"
-                    prefilledMessage={prefilledMessage}
-                    className="w-full"
-                />
-            ) : (
-                <Button type="submit" className="w-full" size="lg">Generate WhatsApp Message</Button>
-            )}
+            <WhatsAppButton
+                message="Confirm on WhatsApp"
+                type="submit"
+                className="w-full"
+                size="lg"
+            />
           </form>
         </Form>
       </CardContent>
