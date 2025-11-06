@@ -2,43 +2,43 @@
   "placeholderImages": [
     {
       "id": "hero",
-      "imageUrl": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBob3VzZXxlbnwwfHx8fDE3NjIzODYwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/learncodewithrk/image/upload/v1762414886/Website%20assest/pexels-danielellis-11381273_w6iba1.jpg",
       "description": "Modern house exterior with a dark facade and large windows, surrounded by trees",
       "imageHint": "modern house"
     },
     {
       "id": "properties-header",
-      "imageUrl": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBob3VzZXxlbnwwfHx8fDE3NjI0MTYyODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/learncodewithrk/image/upload/v1762414886/Website%20assest/pexels-danielellis-11381273_w6iba1.jpg",
       "description": "A beautiful modern house with a garage.",
       "imageHint": "modern house"
     },
     {
       "id": "about-header",
-      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwd29ya2luZ3xlbnwwfHx8fDE3NjI0MTYyODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/learncodewithrk/image/upload/v1762414886/Website%20assest/pexels-danielellis-11381273_w6iba1.jpg",
       "description": "A diverse team collaborating in a modern office space.",
       "imageHint": "team working"
     },
     {
       "id": "blog-header",
-      "imageUrl": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibG9nZ2luZ3xlbnwwfHx8fDE3NjI0MTYyODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/learncodewithrk/image/upload/v1762414886/Website%20assest/pexels-danielellis-11381273_w6iba1.jpg",
       "description": "A person writing in a notebook with a laptop, representing blogging.",
       "imageHint": "blogging"
     },
     {
       "id": "contact-header",
-      "imageUrl": "https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb250YWN0JTIwdXN8ZW58MHx8fHwxNzYyNDE2MjgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/learncodewithrk/image/upload/v1762414886/Website%20assest/pexels-danielellis-11381273_w6iba1.jpg",
       "description": "A desk with a phone, laptop, and notebook for contacting us.",
       "imageHint": "contact us"
     },
     {
       "id": "booking-header",
-      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzY2hlZHVsZSUyMGJvb2tpbmd8ZW58MHx8fHwxNzYyNDE2MjgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/learncodewithrk/image/upload/v1762414886/Website%20assest/pexels-danielellis-11381273_w6iba1.jpg",
       "description": "People looking at a calendar, scheduling a booking.",
       "imageHint": "schedule booking"
     },
     {
       "id": "suggestions-header",
-      "imageUrl": "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSUyUyMHN1Z2dlc3Rpb25zfGVufDB8fHx8MTc2MjQxNjI4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/learncodewithrk/image/upload/v1762414886/Website%20assest/pexels-danielellis-11381273_w6iba1.jpg",
       "description": "Abstract AI and technology background for smart suggestions.",
       "imageHint": "AI suggestions"
     },
@@ -116,7 +116,7 @@
     },
     {
       "id": "prop4-1",
-      "imageUrl": "https://images.unsplash.com/photo-1680702699412-7df12ead8846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb2Z0JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyMzc0NDQ5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1680702699412-7df12ead8846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb2Z0JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyMzc0NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "Bright and airy open plan living area of a loft apartment",
       "imageHint": "loft interior"
     },
@@ -188,7 +188,7 @@
     },
     {
       "id": "location5",
-      "imageUrl": "https://images.unsplash.com/photo-1703926904171-6a87ea1795ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxVSyUyMHN0cmVldHxlbnwwfHx8fDE3NjI0MTMwMTN8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1703926904171-6a87ea1795ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxVSyUyMHN0cmVldHxlbnwwfHx8fDE3NjI0MTMwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "description": "A street in the United Kingdom",
       "imageHint": "UK street"
     },
