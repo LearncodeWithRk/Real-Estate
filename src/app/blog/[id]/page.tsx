@@ -9,7 +9,13 @@ import { Badge } from '@/components/ui/badge';
 import { CalendarDays, UserCircle, ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-export default function BlogPostPage({ params }: { params: { id: string } }) {
+type BlogPostPageProps = {
+  params: {
+    id: string;
+  };
+};
+
+export default function BlogPostPage({ params }: BlogPostPageProps) {
   const post = blogPosts.find((p) => p.id === params.id);
 
   if (!post) {
