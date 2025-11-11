@@ -52,77 +52,79 @@ export default function Home() {
           />
         )}
         <div className="absolute inset-0 bg-black/50" />
-        <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-center">
-          <div className="max-w-2xl text-primary-foreground">
-            <h1 className="text-4xl md:text-6xl font-headline font-bold drop-shadow-md">
-              Find Your Dream Home
-            </h1>
-            <p className="mt-4 text-lg md:text-xl">
-              We are a real estate agency that will help you find the best residence you dream of, let's discuss for your dream house?
-            </p>
+        <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
+          <div className="max-w-4xl text-center mx-auto">
+            <div className="text-primary-foreground">
+              <h1 className="text-4xl md:text-6xl font-headline font-bold drop-shadow-md">
+                Find Your Dream Home
+              </h1>
+              <p className="mt-4 text-lg md:text-xl">
+                We are a real estate agency that will help you find the best residence you dream of, let's discuss for your dream house?
+              </p>
+            </div>
+            <Tabs defaultValue="for-rent" className="mt-8 w-full">
+              <TabsList className="bg-transparent p-0">
+                <TabsTrigger value="for-rent" className="data-[state=active]:bg-white data-[state=active]:text-gray-900 text-white mr-2 px-6 py-2 rounded-t-md border-b-0">For Rent</TabsTrigger>
+                <TabsTrigger value="for-sale" className="data-[state=active]:bg-white data-[state=active]:text-gray-900 text-white px-6 py-2 rounded-t-md border-b-0">For Sale</TabsTrigger>
+              </TabsList>
+              <TabsContent value="for-rent" className="bg-white p-6 rounded-b-md rounded-r-md shadow-lg">
+                <div className="flex flex-col md:flex-row items-center gap-4">
+                  <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <Input placeholder="Search Keyword" />
+                    <Input placeholder="Search Location" />
+                     <Select>
+                      <SelectTrigger>
+                        <SelectValue placeholder="Type" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {propertyTypes.map((type) => (
+                          <SelectItem key={type} value={type.toLowerCase()}>{type}</SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                  <div className="w-full md:w-auto flex flex-col sm:flex-row gap-4">
+                    <Button variant="ghost" className="flex items-center gap-2 w-full sm:w-auto justify-center text-card-foreground">
+                      <SlidersHorizontal className="w-4 h-4"/>
+                      Advanced
+                    </Button>
+                    <Button className="w-full sm:w-auto bg-primary text-primary-foreground">
+                      <Search className="w-4 h-4 mr-2" />
+                      Find Properties
+                    </Button>
+                  </div>
+                </div>
+              </TabsContent>
+              <TabsContent value="for-sale" className="bg-white p-6 rounded-b-md rounded-r-md shadow-lg">
+                 <div className="flex flex-col md:flex-row items-center gap-4">
+                  <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <Input placeholder="Search Keyword" />
+                    <Input placeholder="Search Location" />
+                     <Select>
+                      <SelectTrigger>
+                        <SelectValue placeholder="Type" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {propertyTypes.map((type) => (
+                          <SelectItem key={type} value={type.toLowerCase()}>{type}</SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                  <div className="w-full md:w-auto flex flex-col sm:flex-row gap-4">
+                    <Button variant="ghost" className="flex items-center gap-2 w-full sm:w-auto justify-center text-card-foreground">
+                      <SlidersHorizontal className="w-4 h-4"/>
+                      Advanced
+                    </Button>
+                    <Button className="w-full sm:w-auto bg-primary text-primary-foreground">
+                      <Search className="w-4 h-4 mr-2" />
+                      Find Properties
+                    </Button>
+                  </div>
+                </div>
+              </TabsContent>
+            </Tabs>
           </div>
-          <Tabs defaultValue="for-rent" className="mt-8 w-full max-w-4xl">
-            <TabsList className="bg-transparent p-0">
-              <TabsTrigger value="for-rent" className="data-[state=active]:bg-white data-[state=active]:text-gray-900 text-white mr-2 px-6 py-2 rounded-t-md border-b-0">For Rent</TabsTrigger>
-              <TabsTrigger value="for-sale" className="data-[state=active]:bg-white data-[state=active]:text-gray-900 text-white px-6 py-2 rounded-t-md border-b-0">For Sale</TabsTrigger>
-            </TabsList>
-            <TabsContent value="for-rent" className="bg-white p-6 rounded-b-md rounded-r-md shadow-lg">
-              <div className="flex flex-col md:flex-row items-center gap-4">
-                <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  <Input placeholder="Search Keyword" />
-                  <Input placeholder="Search Location" />
-                   <Select>
-                    <SelectTrigger>
-                      <SelectValue placeholder="Type" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {propertyTypes.map((type) => (
-                        <SelectItem key={type} value={type.toLowerCase()}>{type}</SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-                <div className="w-full md:w-auto flex flex-col sm:flex-row gap-4">
-                  <Button variant="ghost" className="flex items-center gap-2 w-full sm:w-auto justify-center text-card-foreground">
-                    <SlidersHorizontal className="w-4 h-4"/>
-                    Advanced
-                  </Button>
-                  <Button className="w-full sm:w-auto bg-primary text-primary-foreground">
-                    <Search className="w-4 h-4 mr-2" />
-                    Find Properties
-                  </Button>
-                </div>
-              </div>
-            </TabsContent>
-            <TabsContent value="for-sale" className="bg-white p-6 rounded-b-md rounded-r-md shadow-lg">
-               <div className="flex flex-col md:flex-row items-center gap-4">
-                <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  <Input placeholder="Search Keyword" />
-                  <Input placeholder="Search Location" />
-                   <Select>
-                    <SelectTrigger>
-                      <SelectValue placeholder="Type" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {propertyTypes.map((type) => (
-                        <SelectItem key={type} value={type.toLowerCase()}>{type}</SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-                <div className="w-full md:w-auto flex flex-col sm:flex-row gap-4">
-                  <Button variant="ghost" className="flex items-center gap-2 w-full sm:w-auto justify-center text-card-foreground">
-                    <SlidersHorizontal className="w-4 h-4"/>
-                    Advanced
-                  </Button>
-                  <Button className="w-full sm:w-auto bg-primary text-primary-foreground">
-                    <Search className="w-4 h-4 mr-2" />
-                    Find Properties
-                  </Button>
-                </div>
-              </div>
-            </TabsContent>
-          </Tabs>
         </div>
       </section>
 
@@ -286,6 +288,8 @@ export default function Home() {
         </section>
     </div>
   );
+
+    
 
     
 
