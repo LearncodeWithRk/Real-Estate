@@ -76,11 +76,9 @@ export default function Home() {
                       <SelectValue placeholder="Type" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="apartment">Apartment</SelectItem>
-                      <SelectItem value="villa">Villa</SelectItem>
-                      <SelectItem value="studio">Studio</SelectItem>
-                      <SelectItem value="house">House</SelectItem>
-                      <SelectItem value="office">Office</SelectItem>
+                      {propertyTypes.map((type) => (
+                        <SelectItem key={type} value={type.toLowerCase()}>{type}</SelectItem>
+                      ))}
                     </SelectContent>
                   </Select>
                 </div>
@@ -106,11 +104,9 @@ export default function Home() {
                       <SelectValue placeholder="Type" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="apartment">Apartment</SelectItem>
-                      <SelectItem value="villa">Villa</SelectItem>
-                      <SelectItem value="studio">Studio</SelectItem>
-                      <SelectItem value="house">House</SelectItem>
-                      <SelectItem value="office">Office</SelectItem>
+                      {propertyTypes.map((type) => (
+                        <SelectItem key={type} value={type.toLowerCase()}>{type}</SelectItem>
+                      ))}
                     </SelectContent>
                   </Select>
                 </div>
