@@ -6,18 +6,50 @@ import { blogPosts } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
-import { CalendarDays, UserCircle, ArrowLeft } from 'lucide-react';
+import { CalendarDays, ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Suspense } from 'react';
 
-export default function BlogPostPage({ params }: { params: { id: string } }) {
+type PageProps = {
+  params: {
+    id: string;
+  };
+};
+
+function PostImage({ imageId, alt }: { imageId: string, alt: string }) {
+    const image = PlaceHolderImages.find((img) => img.id === imageId);
+    if (!image) return null;
+
+    return (
+        <div className="relative aspect-video rounded-lg overflow-hidden mb-8 shadow-lg">
+            <Image
+                src={image.imageUrl}
+                alt={alt}
+                data-ai-hint={image.imageHint}
+                fill
+                className="object-cover"
+                priority
+            />
+        </div>
+    );
+}
+
+
+function AuthorAvatar() {
+  const authorImage = PlaceHolderImages.find((img) => img.id === 'team1');
+  if (!authorImage) return null;
+
+  return (
+    <AvatarImage src={authorImage.imageUrl} alt="Author" />
+  )
+}
+
+export default function BlogPostPage({ params }: PageProps) {
   const post = blogPosts.find((p) => p.id === params.id);
 
   if (!post) {
     notFound();
   }
-
-  const image = PlaceHolderImages.find((img) => img.id === post.imageId);
-  const authorImage = PlaceHolderImages.find((img) => img.id === 'team1');
 
   return (
     <div className="container mx-auto max-w-4xl py-16 px-4">
@@ -39,12 +71,12 @@ export default function BlogPostPage({ params }: { params: { id: string } }) {
           </h1>
           <div className="flex justify-center items-center gap-6 text-muted-foreground text-sm">
             <div className="flex items-center gap-2">
-              {authorImage && (
-                <Avatar className="h-8 w-8">
-                  <AvatarImage src={authorImage.imageUrl} alt={post.author} />
-                  <AvatarFallback>{post.author.charAt(0)}</AvatarFallback>
-                </Avatar>
-              )}
+              <Avatar className="h-8 w-8">
+                <Suspense>
+                  <AuthorAvatar />
+                </Suspense>
+                <AvatarFallback>{post.author.charAt(0)}</AvatarFallback>
+              </Avatar>
               <span>{post.author}</span>
             </div>
             <div className="flex items-center gap-2">
@@ -54,18 +86,9 @@ export default function BlogPostPage({ params }: { params: { id: string } }) {
           </div>
         </header>
 
-        {image && (
-          <div className="relative aspect-video rounded-lg overflow-hidden mb-8 shadow-lg">
-            <Image
-              src={image.imageUrl}
-              alt={post.title}
-              data-ai-hint={image.imageHint}
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-        )}
+        <Suspense>
+            <PostImage imageId={post.imageId} alt={post.title} />
+        </Suspense>
 
         <div
           className="prose prose-lg max-w-none mx-auto"

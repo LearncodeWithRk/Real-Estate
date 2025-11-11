@@ -3,23 +3,31 @@ import Image from "next/image";
 import { BlogPostCard } from "@/components/blog-post-card";
 import { blogPosts } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { Suspense } from "react";
+
+function BlogHeader() {
+  const blogHeaderImage = PlaceHolderImages.find((img) => img.id === "blog-header");
+  if (!blogHeaderImage) return null;
+
+  return (
+    <Image
+      src={blogHeaderImage.imageUrl}
+      alt={blogHeaderImage.description}
+      data-ai-hint={blogHeaderImage.imageHint}
+      fill
+      className="object-cover"
+      priority
+    />
+  )
+}
 
 export default function BlogPage() {
-  const blogHeaderImage = PlaceHolderImages.find((img) => img.id === "blog-header");
-
   return (
     <>
       <section className="relative h-[50vh] w-full">
-        {blogHeaderImage && (
-          <Image
-            src={blogHeaderImage.imageUrl}
-            alt={blogHeaderImage.description}
-            data-ai-hint={blogHeaderImage.imageHint}
-            fill
-            className="object-cover"
-            priority
-          />
-        )}
+        <Suspense>
+         <BlogHeader />
+        </Suspense>
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative container mx-auto h-full flex flex-col justify-center items-center text-center text-primary-foreground">
           <h1 className="text-4xl md:text-6xl font-headline font-bold drop-shadow-md">
