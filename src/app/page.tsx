@@ -20,6 +20,8 @@ export default function Home() {
   const heroImage = PlaceHolderImages.find((img) => img.id === "hero");
   const [filter, setFilter] = useState('All');
 
+  const propertyTypes = ['Apartment', 'Villa', 'Studio', 'House', 'Office'];
+
   const featuredProperties = properties.slice(0, 6);
   
   const filteredFeaturedProperties = featuredProperties.filter(property => {
@@ -34,8 +36,6 @@ export default function Home() {
     { city: "Cape Town, South Africa", properties: 238, imageId: "location4" },
     { city: "United Kingdom", properties: 238, imageId: "location5" },
   ];
-
-  const propertyTypes = ['Apartment', 'Villa', 'Studio', 'House', 'Office'];
 
   return (
     <div className="flex flex-col">
@@ -53,7 +53,7 @@ export default function Home() {
         )}
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-center">
-          <div className="max-w-4xl w-full pt-32 sm:pt-0">
+          <div className="max-w-4xl w-full pt-48 sm:pt-0">
             <div className="text-primary-foreground mb-8">
               <h1 className="text-4xl md:text-6xl font-headline font-bold drop-shadow-md">
                 Find Your Dream Home
@@ -300,3 +300,4 @@ export default function Home() {
     
 
     
+
