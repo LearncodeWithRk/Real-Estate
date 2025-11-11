@@ -10,11 +10,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Separator } from "@/components/ui/separator";
 import { BackButton } from "@/components/back-button";
 
-type PropertyDetailPageProps = {
-  params: { id: string };
-};
-
-export default function PropertyDetailPage({ params }: PropertyDetailPageProps) {
+export default function PropertyDetailPage({ params }: { params: { id: string } }) {
   const property = properties.find((p) => p.id === params.id);
 
   if (!property) {
