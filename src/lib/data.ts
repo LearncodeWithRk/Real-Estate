@@ -1,4 +1,5 @@
-import { BedDouble, Bath, Car, Wifi, Utensils, Tv, Building, Trees, Dumbbell, Wind, Sun, Award } from 'lucide-react';
+
+import { BedDouble, Bath, Car, Wifi, Utensils, Tv, Building, Trees, Dumbbell, Wind, Sun, Waves } from 'lucide-react';
 import type { ComponentType } from 'react';
 
 export type Amenity = {
@@ -54,7 +55,7 @@ export const properties: Property[] = [
     description: 'Breathtaking ocean views from this stunning modern villa. Features an open floor plan, infinity pool, and state-of-the-art kitchen. Perfect for those who love luxury and coastal living.',
     amenities: [
       { name: 'WiFi', icon: Wifi },
-      { name: 'Pool', icon: Award }, // Using Award for Pool
+      { name: 'Pool', icon: Waves }, // Using Waves for Pool
       { name: 'Garage', icon: Car },
       { name: 'Gourmet Kitchen', icon: Utensils },
       { name: 'Air Conditioning', icon: Wind },
@@ -142,7 +143,7 @@ export const properties: Property[] = [
     bathrooms: 7,
     description: 'An exquisite mansion on the shores of Lake Tahoe. Private dock, expansive decks, and panoramic lake views from every room. A true masterpiece of design and comfort.',
     amenities: [
-      { name: 'Private Dock', icon: Award },
+      { name: 'Private Dock', icon: Waves },
       { name: 'Lake View', icon: Sun },
       { name: 'Fireplace', icon: Trees },
       { name: 'Garage', icon: Car },
@@ -230,3 +231,5 @@ export const blogPosts: BlogPost[] = [
     content: '<p>Investing in rental properties can provide a steady stream of passive income and long-term appreciation. However, it\'s important to do your homework before diving in.</p><h3>Understand the Market</h3><p>Research the local rental market to understand average rent prices, vacancy rates, and desirable neighborhoods. This will help you identify properties with good investment potential.</p><h3>Calculate Your Return on Investment (ROI)</h3><p>Before buying a property, calculate your potential ROI. This involves estimating your rental income and subtracting your expenses, such as mortgage payments, property taxes, insurance, and maintenance costs.</p><h3>Financing Your Investment</h3><p>Investment property mortgages often require a larger down payment and have stricter lending requirements than primary residences. Explore your financing options and get pre-approved before making an offer.</p><p>With the right strategy, investing in rental properties can be a rewarding venture.</p>'
   }
 ];
+
+    
