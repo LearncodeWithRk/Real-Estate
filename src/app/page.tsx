@@ -52,8 +52,8 @@ export default function Home() {
           />
         )}
         <div className="absolute inset-0 bg-black/50" />
-        <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-start">
-          <div className="max-w-2xl text-left text-primary-foreground">
+        <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-center md:items-start text-center md:text-left">
+          <div className="max-w-2xl text-primary-foreground">
             <h1 className="text-4xl md:text-6xl font-headline font-bold drop-shadow-md">
               Find Your Dream Home
             </h1>
@@ -68,7 +68,7 @@ export default function Home() {
             </TabsList>
             <TabsContent value="for-rent" className="bg-white p-6 rounded-b-md rounded-r-md shadow-lg">
               <div className="flex flex-col md:flex-row items-center gap-4">
-                <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   <Input placeholder="Search Keyword" />
                   <Input placeholder="Search Location" />
                    <Select>
@@ -98,7 +98,7 @@ export default function Home() {
             </TabsContent>
             <TabsContent value="for-sale" className="bg-white p-6 rounded-b-md rounded-r-md shadow-lg">
                <div className="flex flex-col md:flex-row items-center gap-4">
-                <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   <Input placeholder="Search Keyword" />
                   <Input placeholder="Search Location" />
                    <Select>
@@ -290,5 +290,7 @@ export default function Home() {
         </section>
     </div>
   );
+
+    
 
     
