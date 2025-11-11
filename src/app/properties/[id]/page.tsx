@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { properties } from "@/lib/data";
@@ -9,7 +10,11 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Separator } from "@/components/ui/separator";
 import { BackButton } from "@/components/back-button";
 
-export default function PropertyDetailPage({ params }: { params: { id: string } }) {
+type PropertyDetailPageProps = {
+  params: { id: string };
+};
+
+export default function PropertyDetailPage({ params }: PropertyDetailPageProps) {
   const property = properties.find((p) => p.id === params.id);
 
   if (!property) {
