@@ -13,7 +13,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
-import { Award, Briefcase, Handshake, PencilRuler, Users } from "lucide-react";
+import { Briefcase, Handshake, PencilRuler, Users } from "lucide-react";
 import { useState } from "react";
 
 export default function Home() {
@@ -288,16 +288,4 @@ export default function Home() {
         </section>
     </div>
   );
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+}
