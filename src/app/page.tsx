@@ -52,8 +52,8 @@ export default function Home() {
           />
         )}
         <div className="absolute inset-0 bg-black/50" />
-        <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
-          <div className="max-w-4xl text-center mx-auto">
+        <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-center">
+          <div className="max-w-4xl w-full">
             <div className="text-primary-foreground">
               <h1 className="text-4xl md:text-6xl font-headline font-bold drop-shadow-md">
                 Find Your Dream Home
@@ -288,6 +288,8 @@ export default function Home() {
         </section>
     </div>
   );
+
+    
 
     
 
