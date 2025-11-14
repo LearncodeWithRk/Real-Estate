@@ -11,9 +11,7 @@ import { Button } from '@/components/ui/button';
 import { Suspense } from 'react';
 
 type PageProps = {
-  params: {
-    id: string;
-  };
+  params: { id: string };
 };
 
 function PostImage({ imageId, alt }: { imageId: string, alt: string }) {
