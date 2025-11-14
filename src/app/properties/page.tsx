@@ -1,14 +1,15 @@
+
 import { PropertyCard } from "@/components/property-card";
 import { properties } from "@/lib/data";
 import { PropertyFilters } from "./property-filters";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
-export default function PropertiesPage({
-  searchParams,
-}: {
+type PageProps = {
   searchParams: { [key: string]: string | string[] | undefined };
-}) {
+};
+
+export default function PropertiesPage({ searchParams }: PageProps) {
   const filter = typeof searchParams.filter === "string" ? searchParams.filter : "all";
   const propertiesHeaderImage = PlaceHolderImages.find((img) => img.id === "properties-header");
 
