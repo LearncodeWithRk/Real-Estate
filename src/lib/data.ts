@@ -202,34 +202,4 @@ export const teamMembers: TeamMember[] = [
   },
 ];
 
-export const blogPosts: BlogPost[] = [
-  {
-    id: '1',
-    title: 'The Ultimate Guide to Buying Your First Home',
-    author: 'Jane Doe',
-    date: 'October 26, 2024',
-    imageId: 'blog1-thumb',
-    excerpt: 'Navigating the real estate market for the first time can be daunting. This guide breaks down the process into simple, manageable steps to help you secure your dream home.',
-    content: '<p>Buying your first home is an exciting milestone, but it can also be a complex process. From securing a mortgage to making an offer, there are many steps involved. This guide will walk you through everything you need to know.</p><h3>Step 1: Financial Preparation</h3><p>Before you start looking at houses, you need to get your finances in order. This includes checking your credit score, saving for a down payment, and getting pre-approved for a mortgage. A pre-approval letter will show sellers that you are a serious buyer.</p><h3>Step 2: Finding the Right Agent</h3><p>A good real estate agent is your most valuable asset. They can provide you with information about neighborhoods, help you negotiate offers, and guide you through the closing process. Look for an agent who has experience working with first-time buyers.</p><h3>Step 3: The Home Search</h3><p>Once you have your finances and agent sorted, the fun part begins: house hunting! Be sure to make a list of your must-haves and nice-to-haves. Attend open houses and schedule private showings to get a feel for what\'s available in your price range.</p><p>By following these steps, you\'ll be well on your way to owning your first home. Happy house hunting!</p>'
-  },
-  {
-    id: '2',
-    title: '5 Tips for Staging Your Home to Sell Quickly',
-    author: 'John Smith',
-    date: 'October 22, 2024',
-    imageId: 'blog2-thumb',
-    excerpt: 'Want to sell your home fast and for the best price? Home staging is key. These five essential tips will help you make your property irresistible to potential buyers.',
-    content: '<p>Staging your home is all about showcasing its best features to potential buyers. A well-staged home can sell faster and for a higher price. Here are five tips to get you started.</p><h3>1. Declutter and Depersonalize</h3><p>Buyers need to be able to envision themselves living in the space. Remove personal photos, clutter, and excess furniture. This will make your home feel larger and more inviting.</p><h3>2. Deep Clean Everything</h3><p>A sparkling clean home is a must. Pay special attention to kitchens and bathrooms. Clean windows, dust surfaces, and make sure there are no lingering odors.</p><h3>3. Let There Be Light</h3><p>Bright, well-lit homes are more appealing. Open up curtains and blinds to let in natural light. Add lamps to darker corners to create a warm and welcoming atmosphere.</p><h3>4. Neutralize Your Color Palette</h3><p>Bold wall colors can be a turn-off for some buyers. Consider painting your walls in neutral colors like beige, gray, or off-white. This creates a blank canvas for buyers to project their own style.</p><h3>5. Enhance Curb Appeal</h3><p>The first impression is crucial. Make sure your home\'s exterior is just as appealing as the interior. Mow the lawn, trim bushes, and add some potted plants to your entryway.</p>'
-  },
-  {
-    id: '3',
-    title: 'Investing in Rental Properties: A Beginner\'s Guide',
-    author: 'Emily White',
-    date: 'October 18, 2024',
-    imageId: 'blog3-thumb',
-    excerpt: 'Real estate can be a powerful wealth-building tool. If you\'re considering investing in rental properties, this beginner\'s guide will cover the basics to get you started.',
-    content: '<p>Investing in rental properties can provide a steady stream of passive income and long-term appreciation. However, it\'s important to do your homework before diving in.</p><h3>Understand the Market</h3><p>Research the local rental market to understand average rent prices, vacancy rates, and desirable neighborhoods. This will help you identify properties with good investment potential.</p><h3>Calculate Your Return on Investment (ROI)</h3><p>Before buying a property, calculate your potential ROI. This involves estimating your rental income and subtracting your expenses, such as mortgage payments, property taxes, insurance, and maintenance costs.</p><h3>Financing Your Investment</h3><p>Investment property mortgages often require a larger down payment and have stricter lending requirements than primary residences. Explore your financing options and get pre-approved before making an offer.</p><p>With the right strategy, investing in rental properties can be a rewarding venture.</p>'
-  }
-];
-
-    
+export const blogPosts: BlogPost[] = [];
