@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Building2, User, Phone, BookOpen, Menu } from "lucide-react";
+import { Home, Building2, User, Phone, Lightbulb, Menu } from "lucide-react";
 import { useState } from "react";
 
 import { APP_NAME } from "@/lib/constants";
@@ -13,6 +13,7 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTr
 const navLinks = [
   { href: "/", label: "Home", icon: Home },
   { href: "/properties", label: "Properties", icon: Building2 },
+  { href: "/suggestions", label: "Suggestions", icon: Lightbulb },
   { href: "/about", label: "About Us", icon: User },
   { href: "/contact", label: "Contact", icon: Phone },
 ];
@@ -55,7 +56,6 @@ export function Header() {
         <div className="flex flex-1 items-center justify-end gap-4">
           <Button asChild>
             <Link href="/booking">
-              <BookOpen className="mr-2 h-4 w-4" />
               Book Viewing
             </Link>
           </Button>
@@ -81,7 +81,6 @@ export function Header() {
                 {renderNavLinks(true)}
                  <Button asChild size="lg" className="text-lg mt-4">
                     <Link href="/booking" onClick={handleLinkClick}>
-                        <BookOpen className="mr-2 h-5 w-5" />
                         Book Viewing
                     </Link>
                 </Button>
